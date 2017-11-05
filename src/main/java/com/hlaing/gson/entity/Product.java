@@ -2,11 +2,16 @@ package com.hlaing.gson.entity;
 
 import java.math.BigDecimal;
 
+import com.google.gson.annotations.Expose;
+
 public class Product {
 
 	private String productId;
 	private String description;
+	@Expose(serialize = true, deserialize = true)
 	private String imageUrl;
+	private transient String version;
+	@Expose
 	private BigDecimal price;
 
 	public Product() {
