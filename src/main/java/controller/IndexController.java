@@ -20,7 +20,7 @@ public class IndexController {
 		final double val = 15.00;
 		
 	      product.setProductId("235268845711068313");
-	      product.setDescription("Spring Framework Guru Jug");
+	      product.setDescription("Spring Framework Guru Java");
 	      product.setImageUrl("https://springframework.guru/wp-content/uploads/2015/04/spring_framework_guru_jug-rf412049699c14ba5b68bb1c09182bfa2_8nax2_512.jpg");
 	      product.setPrice(BigDecimal.valueOf(val));
 		
